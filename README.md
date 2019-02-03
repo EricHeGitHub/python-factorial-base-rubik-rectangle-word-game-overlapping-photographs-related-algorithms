@@ -9,17 +9,22 @@ Write a program, stored in a file named factorial_base.py, that performs the fol
 
 Here is a sample run of the program.
 $ python3 factorial base .py Input a nonnegative integer : 12a Incorrect input, giving up...
+
 $ python3 factorial base .py Input a nonnegative integer : Incorrect input, giving up...
+
 $ python3 factorial base .py Input a nonnegative integer :  3 Incorrect input, giving up...
+
 $ python3 factorial   base .py
   12 13
  Input a nonnegative
 Decimal 67 reads as
+
 $ python3 factorial   base .py
 integer : 67
 2301 in factorial base.
 Input a nonnegative
 Decimal 2301 reads as 310311 in factorial base.
+
 $ python3 factorial base .py
 Input a nonnegative integer : 310311
 Decimal 310311 reads as 75354211 in factorial base.
@@ -36,15 +41,19 @@ Here is a sample run of the program.
 $ python3 rubiks rectangle .py
 Input final configuration : 01234567
 Incorrect configuration , giving up...
+
 $ python3 rubiks rectangle .py
 Input final configuration : 12345678
 0 step is needed to reach the final configuration.
+
 $ python3 rubiks rectangle .py
 Input final configuration: 2 6 8 4 5 7 3 1
 7 steps are needed to reach the final configuration.
+
 $ python3 rubiks rectangle .py
 Input final configuration : 7215 4368
 16 steps are needed to reach the final configuration.
+
 $ python3 rubiks rectangle .py
 Input final configuration : 1 5 3 2 4 6 7 8 18 steps are needed to reach the final configuration.
 
@@ -65,28 +74,36 @@ y5	z7
 Here is a sample run of the program.
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters : abc2ef Incorrect input , giving up . . .
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: ab Incorrect input , giving up . . .
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters : abcdefghijk Incorrect input , giving up . . .
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: zz zz zz
 No word is built from some of those letters.
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: a a a The highest score is 2.
 The highest scoring word is a
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: a e i o u The highest score is 8.
 The highest scoring words are , in alphabetical order :
 iou
 oui
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: prmgroa The highest score is 24.
 The highest scoring word is program
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: r a mm o x y The highest score is 17.
 The highest scoring words are , in alphabetical
 mayor moray moxa oryx
+
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: eaeo rtsmn The highest score is 17.
 The highest scoring words are , in alphabetical order :
@@ -107,6 +124,7 @@ of the lengths of the (external or internal) sides of the following picture.
 Here is a sample run of the program with the two provided sample files.
 $ python3 perimeter . py
 Which data file do you want to use? frames 1.txt The perimeter is: 228
+
 $ python3 perimeter . py
 Which data file do you want to use? frames 2.txt The perimeter is: 9090
 
