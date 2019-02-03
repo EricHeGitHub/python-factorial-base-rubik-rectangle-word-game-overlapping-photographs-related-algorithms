@@ -38,24 +38,25 @@ Write a program, stored in a file named rubiks_rectangle.py, that performs the f
 • Finds the minimal number of steps needed to go from the initial state
 
 Here is a sample run of the program.
-$ python3 rubiks rectangle .py
-Input final configuration : 01234567
+$ python3 rubiks rectangle .py <br/>
+Input final configuration : 01234567 <br/>
 Incorrect configuration , giving up...
 
-$ python3 rubiks rectangle .py
-Input final configuration : 12345678
+$ python3 rubiks rectangle .py <br/>
+Input final configuration : 12345678 <br/>
 0 step is needed to reach the final configuration.
 
-$ python3 rubiks rectangle .py
-Input final configuration: 2 6 8 4 5 7 3 1
+$ python3 rubiks rectangle .py <br/>
+Input final configuration: 2 6 8 4 5 7 3 1 <br/>
 7 steps are needed to reach the final configuration.
 
-$ python3 rubiks rectangle .py
-Input final configuration : 7215 4368
+$ python3 rubiks rectangle .py <br/>
+Input final configuration : 7215 4368 <br/>
 16 steps are needed to reach the final configuration.
 
-$ python3 rubiks rectangle .py
-Input final configuration : 1 5 3 2 4 6 7 8 18 steps are needed to reach the final configuration.
+$ python3 rubiks rectangle .py <br/>
+Input final configuration : 1 5 3 2 4 6 7 8 <br/>
+18 steps are needed to reach the final configuration.
 
 3. A word game
 
