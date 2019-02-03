@@ -5,7 +5,7 @@
 Write a program, stored in a file named factorial_base.py, that performs the following task.
 
 • Prompts the user to input a nonnegative integer. If the input is not a nonnegative integer, then the program outputs an error message and exits.
-• Outputs the conversion of that number in “factorial base”: a number written in factorial base is of the form dk ...d1 with di  i for all 1  i  k, and its decimal value is dk ⇥k!+···+d1 ⇥1!. For instance, the decimal value of 2301 read in factorial base is 2 ⇥ 4! + 3 ⇥ 3! + 0 ⇥ 2! + 1 ⇥ 1! = 67.
+• Outputs the conversion of that number in “factorial base”: a number written in factorial base is of the form dk ...d1 with di <= i for all 1 <= i <= k, and its decimal value is dk ⇥k!+···+d1 ⇥1!. For instance, the decimal value of 2301 read in factorial base is 2 * 4! + 3 * 3! + 0 * 2! + 1 * 1! = 67.
 
 Here is a sample run of the program.
 $ python3 factorial base .py Input a nonnegative integer : 12a Incorrect input, giving up...
