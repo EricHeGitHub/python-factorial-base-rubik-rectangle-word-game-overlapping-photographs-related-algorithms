@@ -128,10 +128,12 @@ of the lengths of the (external or internal) sides of the following picture.
 
 Here is a sample run of the program with the two provided sample files.
 $ python3 perimeter . py
-Which data file do you want to use? frames 1.txt The perimeter is: 228
+Which data file do you want to use? frames 1.txt <br/>
+The perimeter is: 228
 
 $ python3 perimeter . py
-Which data file do you want to use? frames 2.txt The perimeter is: 9090
+Which data file do you want to use? frames 2.txt <br/>
+The perimeter is: 9090
 
 
 
