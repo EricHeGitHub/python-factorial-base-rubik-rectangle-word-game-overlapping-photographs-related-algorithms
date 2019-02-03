@@ -8,25 +8,25 @@ Write a program, stored in a file named factorial_base.py, that performs the fol
 • Outputs the conversion of that number in “factorial base”: a number written in factorial base is of the form dk ...d1 with di <= i for all 1 <= i <= k, and its decimal value is dk ⇥k!+···+d1 ⇥1!. For instance, the decimal value of 2301 read in factorial base is 2 * 4! + 3 * 3! + 0 * 2! + 1 * 1! = 67.
 
 Here is a sample run of the program.
-$ python3 factorial base .py Input a nonnegative integer : 12a Incorrect input, giving up...
+$ python3 factorial base .py <br/>Input a nonnegative integer : 12a Incorrect input, giving up...
 
-$ python3 factorial base .py Input a nonnegative integer : Incorrect input, giving up...
+$ python3 factorial base .py <br/>Input a nonnegative integer : Incorrect input, giving up...
 
-$ python3 factorial base .py Input a nonnegative integer :  3 Incorrect input, giving up...
+$ python3 factorial base .py <br/>Input a nonnegative integer :  3 Incorrect input, giving up...
 
 $ python3 factorial   base .py
-  12 13
- Input a nonnegative
+  12 13 <br/>
+ Input a nonnegative <br/>
 Decimal 67 reads as
 
 $ python3 factorial   base .py
 integer : 67
-2301 in factorial base.
-Input a nonnegative
+2301 in factorial base. <br/>
+Input a nonnegative <br/>
 Decimal 2301 reads as 310311 in factorial base.
 
-$ python3 factorial base .py
-Input a nonnegative integer : 310311
+$ python3 factorial base .py <br/>
+Input a nonnegative integer : 310311 <br/>
 Decimal 310311 reads as 75354211 in factorial base.
 
 
