@@ -87,25 +87,30 @@ No word is built from some of those letters.
 
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: a a a The highest score is 2.
+
 The highest scoring word is a
 
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: a e i o u The highest score is 8.
+
 The highest scoring words are , in alphabetical order :
 iou
 oui
 
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: prmgroa The highest score is 24.
+
 The highest scoring word is program
 
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: r a mm o x y The highest score is 17.
+
 The highest scoring words are , in alphabetical
 mayor moray moxa oryx
 
 $ python3 highest scoring words .py
 Enter between 3 and 10 lowercase letters: eaeo rtsmn The highest score is 17.
+
 The highest scoring words are , in alphabetical order :
 matrons transom
 
